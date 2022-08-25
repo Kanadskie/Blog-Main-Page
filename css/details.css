@@ -1,0 +1,100 @@
+.margins--article {
+        margin-bottom: 60px;
+    }
+
+.article-header {
+        width: 100%;
+        height: 0px;
+        padding-bottom: 38.25%;
+        background: url("../images/image_1_details.png");
+        background-size: cover;
+        position: relative;
+}
+
+.article-body_h1 {
+        font-size: 45px;
+        font-weight: 700;
+        color: #2D3748;
+}
+
+.article-body_h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #2D3748;
+}
+
+.article-body__author {
+        font-size: 18px;
+        font-weight: 700;
+        color: #2D3748;
+        padding-right: 15px;
+}
+
+.article-body__date {
+        font-size: 18px;
+        font-weight: 400;
+        color: #718096;
+}
+
+.article-body__hr {
+        background-color: #E8E7E7;
+        height: 1px;
+        border: none;
+        margin: 30px 0;
+}
+
+.article-body__p {
+        font-size: 16px;
+        color: #718096;
+        margin: 0;
+        line-height: 2em;
+}
+
+.article-text-italic {
+        font-style: italic;
+        font-weight: 700;
+        color: #2D3748;
+        display: block;
+        padding: 30px 0;
+}
+
+.top {
+        width: 42px;
+        height: 42px;
+        position: fixed;
+        bottom: 100px;
+        right: 55px;
+        padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+        .top {
+                right: 15px;
+                padding: 5px;
+        }
+
+        .article-body_h1 {
+                font-size: 25px;
+        }
+
+        .article-body__hr {
+                margin: 15px 0;
+        }
+
+        .article-body_h2 {
+                font-size: 20px;
+        }
+
+        .article-body__author {
+                font-size: 12px;
+        }
+        
+        .article-body__date {
+                font-size: 12px;
+        }
+
+        .article-body__p {
+                font-size: 14px;
+        }
+}
